@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+	*{
+        margin:0px;
+    }
+    .nav{
+        width:100%;
+        height: 15vh;
+        background-color:blanchedalmond;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        z-index: 5;
+    }
+    .nav img{
+        width:150px;
+        height:13vh;
+        margin-left: 2%;
+        margin-top: 0.5%;
+    }
+     .ppp{
+        color: black;
+        font-style:italic;
+        font-size: 20px;
+        
+        
+    }
+    .ppp:hover{
+        background-color: aliceblue;
+        
+    
+    
+    }
+    .menu{
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                width: 150px;
+                background-color: white;
+    }
+            
+            .menu a{
+                padding: 1rem;
+            }
+            .ppp:hover .menu{
+                display: block;
+            }
+            .menu1{
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                width: 150px;
+                background-color: white;
+            }
+            .menu1 a{
+                padding: 1rem;
+            }
+            .y:hover .menu1{
+                display: block;
+            }
+            .y{
+                font-size: 20px;
+                color: black;
+                font-style: italic;
+            }
+            .y:hover{
+                background-color: aliceblue;
+            }
+            .ab{
+                width: 100%;
+                height: 100vh;
+                
+            }
+            .ab img{
+                width: 55%;
+                height: 85vh;
+                margin-top: 8%;
+
+            }
+            .ac{
+                font-size: 40px;
+                position: relative;
+                top:-75%;
+                left:58%;
+            }
+            .ad{
+                position: relative;
+                top: -70%;
+                left:58%
+                
+            }
+            .ad input{
+                width: 35%;
+                height: 5vh;
+            }
+            .ae{
+                position: relative;
+                top: -66%;
+                left:58%
+                
+            }
+            .ae input{
+                width: 35%;
+                height: 5vh;
+            }
+            .af{
+                position: relative;
+                top: -63%;
+                left:58%
+                
+            }
+            .af input{
+                width: 35%;
+                height: 5vh;
+            }
+            .ag{
+                position: relative;
+                top: -60%;
+                left:58%
+            }
+            .ah{
+                position: relative;
+                top: -59%;
+                left:58%
+                
+            }
+            .ah input{
+                width: 35%;
+                height: 5vh;
+            }
+            .ai{
+                position: relative;
+                top: -55%;
+                left:58%
+                
+            }
+            .ai input{
+                width: 15%;
+                height: 5vh;
+            }
+            .ba{
+                width: 100%;
+                height: 100vh;
+                
+            
+
+            
+            }
+            .bb {
+                text-align: center;
+                padding:2%;
+                color: blue;
+                font-size: 40px;
+            }
+            .bc img{
+                position: relative;
+                left:10%;
+                margin-top: 8%;
+            }
+            .bd{
+                position: relative;
+                left: 10%;
+                font-size: 25px;
+            }
+            .be img{
+                position: relative;
+                left:45%;
+            }
+            .bf{
+                position: relative;
+                left: 45%;
+                font-size: 25px;
+            }
+            .bh img{
+                position: relative;
+                left:70%;
+                top:-63vh;
+            }
+            .bi{
+                position: relative;
+                left: 70%;
+                top:-60vh ;
+                font-size: 25px;
+            }
+            .u{
+                width: 97%;
+                height: 60vh;
+                background-color: dodgerblue;
+                margin-left: 2%;
+                margin-top: 7%;
+                display: flex;
+            }
+            .subdiv{
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 5%;
+                top: 5vh;
+            }
+            .subdiv1{
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 10%;
+                top: 5vh;
+            }
+            .subdiv2{
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 20%;
+                top: 5vh;
+            }
+            .subdiv3{
+                width: 25%;
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 30%;
+                top: 5vh;
+            }
+            .v{
+                display: flex;
+            }
+            .btn{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+            }
+            .v1{
+                position: relative;
+                left: 20%;
+                top: 1vh;
+            }
+            .btn1{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 2%;
+            }
+            .btn2{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 4%;
+            }
+            .btn3{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 5%;
+            }
+            .btn4{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 6%;
+            }
+            .btn:hover{
+                background-color: blue;
+            }
+            .btn1:hover{
+                background-color: blue;
+            }
+            .btn2:hover{
+                background-color: blue;
+            }
+            .btn3:hover{
+                background-color: blue;
+            }
+            .btn4:hover{
+                background-color: blue;
+            }
+            .menu{
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                width: 150px;
+                background-color: white;
+            }
+            .menu a{
+                padding: 1rem;
+            }
+            .ppp:hover .menu{
+                display: block;
+            }
+            .menu1{
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                width: 150px;
+                background-color: white;
+            }
+            .menu1 a{
+                padding: 1rem;
+            }
+            .y:hover .menu1{
+                display: block;
+            }
+            .y{
+                font-size: 20px;
+                color: black;
+                font-style: italic;
+            }
+            .y:hover{
+                background-color: aliceblue;
+            }
+
+</style>
+</head>
+<body>
+	<div class="nav">
+            <img src="https://images.fresha.com/locations/location-profile-images/148124/230711/bdc4eab7-8def-4c59-b325-be5f0a4ae396-1.jpg?class=fallback"/>
+               <div class="ppp"><a href="vamsi.html">Our Services</a>
+                <div class="menu">
+                    <a href="#"><div>Hair Care</div></a>
+                    <a href="#"><div>Skin Care</div></a>
+                    <a href="#"><div>Body Care</div></a>
+                </div>
+            </div>
+                <a href="vamsi.html">Bridal</a>
+                <a href="vamsi.html">Franchise</a>
+                <div class="y">About Us
+                    <div class="menu1">
+                        <a href="#"><div>School Of Makeup</div></a>
+                        <a href="#"><div>Media</div></a>
+                    </div>
+                </div>
+                <p>Blogs</p>
+                <p>Contact Us</p>
+        </div>
+        <div class="ab">
+            <img src="https://th.bing.com/th/id/R.d4d3003bd29c4f028c31ab685353efba?rik=pdn%2fZz7iRAp1yA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-RpDnwla5kgc%2fUL8G9-ez2LI%2fAAAAAAAAEn8%2fB6C8vwvIVwc%2fs1600%2fSharika%2b(25).jpg&ehk=QFB4pP5%2fMb%2bcNahB7igUvjiM6gn%2bmcLB7GanEiuN0Mo%3d&risl=&pid=ImgRaw&r=0"/> 
+            <div class="ac">Boook A FREE Make up Trial</div>
+            <div class="ad"><input type="text" placeholder="YOUR NAME"></div>
+            <div class="ae"><input type="text" placeholder="MOBILE NUMBER"></div>
+            <div class="af"><input type="text" placeholder="EMAIL ID"></div>
+            <div class="ag">Event Date:</div>
+            <div class="ah"><input type="date"></div>
+            <div class="ai"><button onclick="NOW">BOOK NOW</button></div>
+        </div>
+        <div class="ba">
+            <div class="bb">Why Choose Sheere Dean<br>Get The Royal Treatment Fit For A King & Queen</div>
+            <div class="bc"><img src="https://naturals.in/wp-content/uploads/2022/05/icons8-warranty-100-80x80.png"/></div>
+            <div class="bd">Top Notch Quality <br> No matter what your vision for<br> your big day, leave it to<br> us to bring them to life!</div>
+            <div class="be"><img src="https://naturals.in/wp-content/uploads/2022/05/icons8-beautician-100-80x80.png"/></div>
+            <div class="bf">Personalised Makeup <br>Subtle, glamorous, minimalist or<br> trendy – watch yourself transform <br>as our stylists wave their magic<br> wands</div>
+            <div class="bh"><img src="https://naturals.in/wp-content/uploads/2022/05/icons8-experience-100-80x80.png"/></div>
+            <div class="bi">Personalised Makeup <br>Subtle, glamorous, minimalist or<br> trendy – watch yourself transform <br>as our stylists wave their magic<br> wands</div>
+
+        </div>
+        <div class="u">
+            <div class="subdiv">
+                <p>Quick Lins</p><br/><br/>
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>Francise Opportunities</p>
+                <p>Blogs</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="subdiv1">
+                <p>Our Services</p><br/><br/>
+                <p>Hair Care</p>
+                <p>Skin Care</p>
+                <p>Body Care</p>
+                <p>Bridal</p>
+                <p>Events</p>
+            </div>
+            <div class="subdiv2">
+                <p>Contact Us</p><br/><br/>
+                <p>Sheere Dean Salon & Spa pvt.Ltd</p>
+                <p>123 & 124,3rd floor,S R Nagar,Amerpet Road,</p>
+                <p>Tousand Lights, Hyderbad</p>
+                <p>Telangana</p>
+            </div>
+            <div class="subdiv3">
+                <p>Get In Touch</p><br/><br/>
+                <p>+91 9092626262</p>
+                <p>care@sheere dean.in</p><br/>
+                <div class="v">
+                    <a class="btn" href="#" ><i class="v1 fa-brands fa-instagram"></i></a>
+                    <a class="btn1" href="#" ><i class="V1 fa-brands fa-facebook"></i></a>
+                    <a class="btn2" href="#" ><i class="v1 fa-brands fa-linkedin-in"></i></a>
+                    <a class="btn3" href="#" ><i class="v1 fa-brands fa-square-twitter"></i></a>
+                    <a class="btn4" href="#" ><i class="v1 fa-brands fa-square-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+</body>
+</html>

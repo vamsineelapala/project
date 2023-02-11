@@ -1,0 +1,571 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            *{
+                margin:0px;
+            }
+            .nav{
+                width:100%;
+                height: 15vh;
+                background-color:blanchedalmond;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                position: fixed;
+                z-index: 5;
+            }
+            .nav img{
+                width:150px;
+                height:13vh;
+                margin-left: 2%;
+                margin-top: 0.5%;
+            }
+             .ppp{
+                color: black;
+                font-style:italic;
+                font-size: 20px;
+                
+                
+            }
+            .ppp:hover{
+                background-color: aliceblue;
+                
+            
+            
+            }
+            img{
+                height: 100vh;
+                width: 100%;
+            }
+            h4{
+                margin-top: 5%;
+                color:coral;
+                margin-left: 5%;
+                font-size: 20px;
+            }
+            h1{
+                margin-top: 2%;
+                color: darkblue;
+                margin-left: 5%;
+                font-size: 50px;
+            }
+            .a img{
+                width:30%;
+                height: 25vh;
+                margin-left: 5%;
+            }
+            .b{
+                display: flex;
+                justify-content: space-around;
+                margin-left: 50%;
+                font-size: 35px;
+                margin-top: -28%;
+                color: dodgerblue;
+            }
+            .c p{
+                margin-left: 55%;
+                margin-top: 7%;
+                font-size: 30px;
+               
+            }
+            h3{
+                text-align: center;
+                margin-top: 10%;
+            }
+            .d p{
+                text-align: center;
+                margin-top: 3%;
+                color: mediumblue;
+                font-size: 50px;
+            }
+            .d img{
+                width:40%;
+                height: 60vh;
+                margin-left: 7%;
+                margin-top: 3%;
+            }
+            .e{
+                width:40%;
+                height: 60vh;
+                margin-left:53%;
+                margin-top: -33.5%;
+            }
+            .e p{
+                text-align: center;
+                margin-top: 30%;
+                font-size: 35px;
+            }
+            h2{
+                text-align: center;
+                position: relative;
+                top: 10%;
+                font-size: 35px;
+            } 
+            .e button{
+                position: relative;
+                left: 40%;
+                top: 15%;
+                border-radius: 50px;
+            }
+            .e button:hover{
+                background-color:blue;
+            }
+            .f p{
+                margin-left: 7%;
+                margin-top: 2%;
+                font-size: 50px;
+                color: rgb(63, 14, 240);
+                position: relative;
+                top: 25%;
+            }
+            h6{
+                margin-left: 7%;
+                font-size: 35px;
+                color: rgb(17, 16, 17);
+                margin-top: 10%;
+                
+            }
+            .f{
+                width:100%;
+                height:70vh;
+            }
+            .f button{
+                position: relative;
+                left: 15%;
+                top: -10%;
+                border-radius: 50px;
+            }
+            .f button:hover{
+                background-color: blue;
+            }
+            .f img{
+                width:37%;
+                height:67vh;
+                margin-left: 50%;
+                margin-top: -24%;
+            }
+            .g img{
+                width: 50%;
+                height:60vh;
+                margin-left: 2%;
+                margin-top: 1%;
+            }
+            .h{
+                width:45%;
+                height:60vh;
+                margin-left: 53.5%;
+                margin-top: -33.5%;
+                
+            }
+            .g p{
+                font-size: 50px;
+                position: relative;
+                left: 5%;
+                top: 10%;
+            }
+            .h button{
+                position: relative;
+                top:25%;
+                left: 30%;
+                border-radius: 50px;
+            }
+            .h button:hover{
+                background-color: blue;
+            }
+            .i p{
+                font-size: 30px;
+                margin-left: 5%;
+                margin-top: 1.5%;
+            }
+            h5{
+                font-size: 25px;
+                margin-left: 5%;
+                margin-top: 1%;
+            }
+            .i button{
+                position: relative;
+                left: 18%;
+                top: -10%;
+                border-radius: 50px;
+            }
+            i.button:hover{
+                background-color: blanchedalmond;
+            }
+            .i img{
+                width:45%;
+                height:60vh;
+                margin-left: 45%;
+                margin-top: -20%;
+            }
+            .j img{
+                width:50%;
+                height:60vh;
+                position: relative;
+                top: 5%;
+                left: 2%;
+            }
+            .j p{
+                margin-left: 55%;
+                margin-top: -30%;
+                font-size: 30px;
+            }
+            .k p{
+                margin-top: 2%;
+                font-size: 50px;
+                color: blue;
+            }
+            .l p{
+                margin-top: 2%;
+                font-size: 20px;
+            }
+            .m{
+                width:100%;
+                height:80vh; 
+                background-color: white;
+                margin-top: 5%;
+            }
+            .m P{
+                margin-left: 40%;
+                font-size: 30px;
+
+            }
+            .n p{
+                font-size: 50px;
+                color: rgb(25, 12, 218);
+                margin-left: 36%;
+                margin-top: 1%;
+            }
+            .n img{
+                width:24%;
+                height: 50vh;
+                position: relative;
+                left: 3%;
+                top: 3%;
+            }
+            .O P{
+                margin-left: 4%;
+                margin-top: 1%;
+                font-size: 25px;
+            }
+            .p p{
+                margin-left: 4%;
+                font-size: 50px;
+                color: blue;
+            }
+            .q{
+                width:100%;
+                height:60vh;
+                background-color:white;
+                display: flex;
+                justify-content:space-around;
+            }
+            .r{
+                width: 40%;
+                height: 50vh;
+                background-color: rgb(240, 216, 216);
+                position: relative;
+                top:10%;
+                left: 1%;
+            }
+            .r img{
+                width:18%;
+                height:80px;
+                border-radius: 50px;
+                margin-left: -8%;
+                margin-top: -35%;
+                border:2px solid burlywood;
+            }
+            .r p{
+                position: relative;
+                left: 15%;
+                top: 7%;
+            }
+            .s{
+                font-size: 20px;
+                margin-top: 10%;
+                margin-left: -5%;
+            }
+            .t iframe{
+                position: relative;
+                left: 5%;
+            }
+            .u{
+                width: 97%;
+                height: 60vh;
+                background-color: dodgerblue;
+                margin-left: 2%;
+                margin-top: 7%;
+                display: flex;
+            }
+            .subdiv{
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 5%;
+                top: 5vh;
+            }
+            .subdiv1{
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 10%;
+                top: 5vh;
+            }
+            .subdiv2{
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 20%;
+                top: 5vh;
+            }
+            .subdiv3{
+                width: 25%;
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 30%;
+                top: 5vh;
+            }
+            .v{
+                display: flex;
+            }
+            .btn{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+            }
+            .v1{
+                position: relative;
+                left: 20%;
+                top: 1vh;
+            }
+            .btn1{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 2%;
+            }
+            .btn2{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 4%;
+            }
+            .btn3{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 5%;
+            }
+            .btn4{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 6%;
+            }
+            .btn:hover{
+                background-color: blue;
+            }
+            .btn1:hover{
+                background-color: blue;
+            }
+            .btn2:hover{
+                background-color: blue;
+            }
+            .btn3:hover{
+                background-color: blue;
+            }
+            .btn4:hover{
+                background-color: blue;
+            }
+            .menu{
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                width: 150px;
+                background-color: white;
+            }
+            .menu a{
+                padding: 1rem;
+            }
+            .ppp:hover .menu{
+                display: block;
+            }
+            .menu1{
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                width: 150px;
+                background-color: white;
+            }
+            .menu1 a{
+                padding: 1rem;
+            }
+            .y:hover .menu1{
+                display: block;
+            }
+            .y{
+                font-size: 20px;
+                color: black;
+                font-style: italic;
+            }
+            .y:hover{
+                background-color: aliceblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+            <img src="https://images.fresha.com/locations/location-profile-images/148124/230711/bdc4eab7-8def-4c59-b325-be5f0a4ae396-1.jpg?class=fallback"/>
+               <div class="ppp">Our Services
+                <div class="menu">
+                    <a href="#"><div>Hair Care</div></a>
+                    <a href="#"><div>Skin Care</div></a>
+                    <a href="#"><div>Body Care</div></a>
+                </div>
+            </div>
+                <a href="vamshi1.html">Bridal</a>
+                <a href="vamshi3.html">Franchise</a>
+                <div class="y">About Us
+                    <div class="menu1">
+                        <a href="#"><div>School Of Makeup</div></a>
+                        <a href="#"><div>Media</div></a>
+                    </div>
+                </div>
+                <p>Blogs</p>
+                <a href="vamsi2.html">Contact Us</a>
+        </div>
+        <img src="https://th.bing.com/th/id/R.65b1e8eb8c994033fe26e7b961bbe99a?rik=JbCiG7uLSXPFYg&riu=http%3a%2f%2fwww.calcuttayellowpages.com%2fcimage27%2f110074banner.jpg&ehk=JRGt4qCYWA%2bQMwxzN666A73hIsmDML%2bsKIu02hFOe5g%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"/>
+        <h4>SHEERE DEAN THE BEAUTY BAR IN 2022</h4>
+        <h1>Our Naturals <br>Journey</h1>
+        <div class="a">
+            <img src="https://cdn.shopify.com/s/files/1/0015/2666/1233/products/IMG_2082_1200x1200.jpg?v=1574009838"/>
+            <div class="b">
+                <div>700<br>Stores</div>
+                <div>20<br>States</div>
+                <div>10,000<br>Professionals</div>
+            </div>
+            <div class="c">
+            <p><b>22 Years Of Pathbreaking Excellence</b><br>In Beauty Services & Entrepreneurship<br>Opportunities</p>
+            <h3> NATURALLY YOU!</h3>
+        </div>
+        </div>
+        <div class="d">
+            <p>What Our Magicians Can<br> Do For You</p>
+            <img src="https://1.bp.blogspot.com/-0bTw0OkkV2E/YDiF1FJgbtI/AAAAAAAAALQ/8a68M_sip3gZUodkBvbPhT4V6Sc_b1zywCLcBGAsYHQ/s1136/8a3989cc7334349e728e9159603b611e.png"/>
+        </div>
+        <div class="e">
+            <h2>EXCLUSIVELY BRIDAL</h2>
+            <P><b>Bespoke Bridal Looks</b><br>for brides that cover all<br>services</P>
+            <button click="#">Know More</button>
+        </div>
+    </div>
+    <div class="f">
+        <p>SKIN CARE</p>
+        <h6>Sheere Dean Skin Care Services<br> Replenish, Rejuvenate and <br>Revitalise Your Skin</h6>
+        <button click="#">Know More</button>
+        <img src="https://4.bp.blogspot.com/-53JXtadZOy4/WnifH7Aa-qI/AAAAAAAAPEU/6uXJmjIS6R0uSKojZJtEw6NdG3IIekuawCEwYBhgL/s1600/1509362527_Anupama-Parameswaran--e1514386915494.jpg"/>
+    </div>
+    <div class="g">
+        <img src="https://live.staticflickr.com/65535/40895800843_23fd3963a7_o.jpg"/>
+        <div class="h"><p>HAIR CARE</p><h6>Hairstyling And Cuts From<br>Simple Trims To A Couture<br> Look</h6><button click='#'>Know More</button></div>
+    </div>
+    <div class="i"><P>FRANCHISE</P><h1>Join The <br>Sheere Dean Family</h1><h5>Be A Part Of India's Best Largest Salon chain<br> Exciting Entrepreneuship Opportunity For you</h5>
+        <button click="#">Get In Touch</button>
+        <img src="https://i.pinimg.com/originals/42/57/6a/42576a808432ea63eb9c0e7cd3ca5850.jpg"/>
+    </div>
+    <div class="j">
+        <img src="https://elianassalon.com/wp-content/themes/sal2/images/services/beard-shaping-service.jpg"/>
+        <p>TAINING ACADEMY</p>
+        <div class="k"><p>Hone Your Skills With <br>Learing Opportunities<br> From Sheere Dean</p>
+        </div>
+        <div class="l"><p>intersted to learn the Art of Make-Up?<br>Join the Sheere dean Training Academy-A Wave<br> that Creates Artists in the Beauty Industry</p>
+        </div>
+    </div>
+    <div class="m">
+        <P>OUR PAPULAR STYLIST</P>
+        <div class="n"><p>Here Are Few Of Our<br> Papular Stylist</p>
+            <img src="https://www.carvermostardi.com/cmos/wp-content/uploads/2018/05/corporate_headshots_tampa_002.jpg"/>
+            <img src="https://th.bing.com/th/id/OIP.vf6tqF3ZfAAvJsEqI5-ubgHaLH?pid=ImgDet&w=474&h=711&rs=1"/>
+            <img src="https://mdxvitals-res.cloudinary.com/private_images/q_auto/professionals/1890181/photo.jpg"/>
+            <img src="https://i.pinimg.com/originals/04/c3/d0/04c3d02d9fc6cb5207bbac0223e42671.png"/>
+        </div>
+    </div>
+    <div class="o">
+        <p>CUSTOMER TESTIMONIALS</p>
+        <div class="p">
+            <p>See What Our Customers<br> Has To Say About Us</p>
+        </div>
+    </div>
+    <div class="q">
+        <div class="r">
+            <p>Vamsi Krishna<br>Business person</p>
+            <p class="s">Good service provided here.Stylist salvi is very<br> professionals and renders perfect and a neat<br> service.I recommended this branch and the stylist for <br>services like waxing,thearding and hair coloring</p>
+            <img src="https://i2.wp.com/www.theunstitchd.com/wp-content/uploads/2017/01/Goslins-Touch-On-Business-Hairstyle.jpg?w=662"/>
+        </div>
+        <div class="r">
+            <p>Anupama<br>Business person</p>
+            <p class="s">The facial and detan done by kanchana was mind<br> blowing.Trough i wanted get a head massage<br> too due, to facial i was not able to tke one....,<br> Knowing my face,she exceptionally did an amazing<br> facial along with a quick massage</p>
+            <img src="https://i.pinimg.com/736x/dc/7d/09/dc7d09c156d9535e4a7b3aa078e64a45.jpg"/>
+        </div>
+    </div>
+    <div class="t">
+          <iframe width="1150" height="600" 
+          src="https://www.youtube.com/embed/0CX1mE4Fibg?autoplay=1">
+          </iframe>
+    </div>
+    <div class="u">
+        <div class="subdiv">
+            <p>Quick Lins</p><br/><br/>
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Contact Us</p>
+            <p>Francise Opportunities</p>
+            <p>Blogs</p>
+            <p>Privacy Policy</p>
+        </div>
+        <div class="subdiv1">
+            <p>Our Services</p><br/><br/>
+            <p>Hair Care</p>
+            <p>Skin Care</p>
+            <p>Body Care</p>
+            <p>Bridal</p>
+            <p>Events</p>
+        </div>
+        <div class="subdiv2">
+            <p>Contact Us</p><br/><br/>
+            <p>Sheere Dean Salon & Spa pvt.Ltd</p>
+            <p>123 & 124,3rd floor,S R Nagar,Amerpet Road,</p>
+            <p>Tousand Lights, Hyderbad</p>
+            <p>Telangana</p>
+        </div>
+        <div class="subdiv3">
+            <p>Get In Touch</p><br/><br/>
+            <p>+91 9092626262</p>
+            <p>care@sheere dean.in</p><br/>
+            <div class="v">
+                <a class="btn" href="#" ><i class="v1 fa-brands fa-instagram"></i></a>
+                <a class="btn1" href="#" ><i class="V1 fa-brands fa-facebook"></i></a>
+                <a class="btn2" href="#" ><i class="v1 fa-brands fa-linkedin-in"></i></a>
+                <a class="btn3" href="#" ><i class="v1 fa-brands fa-square-twitter"></i></a>
+                <a class="btn4" href="#" ><i class="v1 fa-brands fa-square-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    </body>
+</html>

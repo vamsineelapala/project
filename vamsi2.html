@@ -1,0 +1,333 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            *{
+                margin:0px;
+            }
+            .nav{
+                width:100%;
+                height: 15vh;
+                background-color:blanchedalmond;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                position: fixed;
+                z-index: 5;
+            }
+            .nav img{
+                width:150px;
+                height:13vh;
+                margin-left: 2%;
+                margin-top: 0.5%;
+            }
+             .ppp{
+                color: black;
+                font-style:italic;
+                font-size: 20px;
+                
+                
+            }
+            .ppp:hover{
+                background-color: aliceblue;
+                
+            }
+            .menu{
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                width: 150px;
+                background-color: white;
+            }
+            .menu a{
+                padding: 1rem;
+            }
+            .ppp:hover .menu{
+                display: block;
+            }
+            .menu1{
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                width: 150px;
+                background-color: white;
+            }
+            .menu1 a{
+                padding: 1rem;
+            }
+            .y:hover .menu1{
+                display: block;
+            }
+            .y{
+                font-size: 20px;
+                color: black;
+                font-style: italic;
+            }
+            .y:hover{
+                background-color: aliceblue;
+            }
+            .ab{
+                width:100%;
+                height:70vh;
+                background-color:white;
+            }
+            .ac img{
+                width:30%;
+                height:30vh;
+                margin-top: 25%;
+                margin-left: 50%;
+            }
+            .ad{
+                text-align: center;
+                color: blue;
+                font-size: 70px;
+                margin-top: -15%;
+            }
+            .ae img{
+                width:30%;
+                height:30vh;
+                margin-top: -20%;
+                margin-left: 6%;
+
+            }
+            .af{
+                text-align: center;
+                font-size: 50px;
+                margin-top: 13%;
+            }
+            .ba{
+                width: 100%;
+                height:80vh;
+            }
+            .bb{
+                font-size: 30px;
+                color:gray;
+                text-align: center;
+            }
+            .bc input{
+                width:50%;
+                height:5vh;
+                margin-left: 25%;
+                margin-top: 3%;
+               
+            }
+            .bd input{
+                width:50%;
+                height:5vh;
+                margin-left: 25%;
+                margin-top: 2%;
+            }
+            .be input{
+                width:50%;
+                height:5vh;
+                margin-left: 25%;
+                margin-top: 2%;
+            }
+            .bf input{
+                width:50%;
+                height:5vh;
+                margin-left: 25%;
+                margin-top: 2%;
+            }
+            .bg input{
+                width:50%;
+                height:25vh;
+                margin-left: 25%;
+                margin-top: 2%;
+
+            }
+            .bh button{
+               margin-left: 45%;
+                color: blue;
+                width: 10%;
+                height: 5vh;
+                margin-top: 2%;
+            }
+            .ca iframe{
+                margin-top: 5%;
+                margin-left: 10%;
+                width: 80%;
+            }
+            .u{
+                width: 97%;
+                height: 60vh;
+                background-color: dodgerblue;
+                margin-left: 2%;
+                margin-top: 7%;
+                display: flex;
+            }
+            .subdiv{
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 5%;
+                top: 5vh;
+            }
+            .subdiv1{
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 10%;
+                top: 5vh;
+            }
+            .subdiv2{
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 20%;
+                top: 5vh;
+            }
+            .subdiv3{
+                width: 25%;
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 30%;
+                top: 5vh;
+            }
+            .v{
+                display: flex;
+            }
+            .btn{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+            }
+            .v1{
+                position: relative;
+                left: 20%;
+                top: 1vh;
+            }
+            .btn1{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 2%;
+            }
+            .btn2{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 4%;
+            }
+            .btn3{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 5%;
+            }
+            .btn4{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 6%;
+            }
+            .btn:hover{
+                background-color: blue;
+            }
+            .btn1:hover{
+                background-color: blue;
+            }
+            .btn2:hover{
+                background-color: blue;
+            }
+            .btn3:hover{
+                background-color: blue;
+            }
+            .btn4:hover{
+                background-color: blue;
+            }
+            </style>
+    </head>
+    <body>
+        <div class="nav">
+            <img src="https://images.fresha.com/locations/location-profile-images/148124/230711/bdc4eab7-8def-4c59-b325-be5f0a4ae396-1.jpg?class=fallback"/>
+               <div class="ppp">Our Services
+                <div class="menu">
+                    <a href="#"><div>Hair Care</div></a>
+                    <a href="#"><div>Skin Care</div></a>
+                    <a href="#"><div>Body Care</div></a>
+                </div>
+            </div>
+                <a href="vamshi1.html">Bridal</a>
+                <a href="vamshi3.html">Franchise</a>
+                <div class="y">About Us
+                    <div class="menu1">
+                        <a href="#"><div>School Of Makeup</div></a>
+                        <a href="#"><div>Media</div></a>
+                    </div>
+                </div>
+                <p>Blogs</p>
+                <p>Contact Us</p>
+        </div>
+        <div class="ab">
+            <div class="ac"><img src="https://i5.walmartimages.com/asr/1eff2c60-00d6-4f48-ab1d-6db1594bae01_1.e8f18c2ae43d9b2f11990b1ea9adaa71.jpeg"</div>
+            <div class="ad">Contact Us</div>
+            <div class="ae"><img src="https://th.bing.com/th/id/R.7fa1bd9d92a8e630c1ec53dfbbd86f79?rik=%2bWSreJw0c%2bQTiA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-0x--PCtgUOg%2fTunPhuZtDGI%2fAAAAAAAAASw%2fLzs5U6tt4u8%2fs1600%2fVery-Rare-Colored-Hairstyles-1.png&ehk=3Yu9A6MU38udTmcSKo3wJDvuoAusGUC05aR82bH2268%3d&risl=&pid=ImgRaw&r=0"</div>
+            <div class="af">We’d Love To Hear From You</div>
+        </div>
+        <div class="ba">
+            <div class="bb">Book your appointments for any Naturals Salon Across India over a call.</div>
+            <div class="bc"><input type="text" placeholder="NAME*"></div>
+            <div class="bd"><input type="text" placeholder="E-MAIL*"</div>
+            <div class="be"><input type="text" placeholder="MOBILE NUMBER*"</div>
+            <div class="bf"><input type="text" placeholder="LOCATION*"></div>
+            <div class="bg"><input type="text" placeholder="NOTE*"></div>
+            <div class="bh"><button onclick="SUBMIT">SUBMIT</button></div>
+        </div>
+        <div class="ca">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d60901.993645425086!2d78.38681049742004!3d17.441775664314232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1snaturals%20beauty%20parlour%20near%20me!5e0!3m2!1sen!2sin!4v1675915128211!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="u">
+            <div class="subdiv">
+                <p>Quick Lins</p><br/><br/>
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>Francise Opportunities</p>
+                <p>Blogs</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="subdiv1">
+                <p>Our Services</p><br/><br/>
+                <p>Hair Care</p>
+                <p>Skin Care</p>
+                <p>Body Care</p>
+                <p>Bridal</p>
+                <p>Events</p>
+            </div>
+            <div class="subdiv2">
+                <p>Contact Us</p><br/><br/>
+                <p>Sheere Dean Salon & Spa pvt.Ltd</p>
+                <p>123 & 124,3rd floor,S R Nagar,Amerpet Road,</p>
+                <p>Tousand Lights, Hyderbad</p>
+                <p>Telangana</p>
+            </div>
+            <div class="subdiv3">
+                <p>Get In Touch</p><br/><br/>
+                <p>+91 9092626262</p>
+                <p>care@sheere dean.in</p><br/>
+                <div class="v">
+                    <a class="btn" href="#" ><i class="v1 fa-brands fa-instagram"></i></a>
+                    <a class="btn1" href="#" ><i class="V1 fa-brands fa-facebook"></i></a>
+                    <a class="btn2" href="#" ><i class="v1 fa-brands fa-linkedin-in"></i></a>
+                    <a class="btn3" href="#" ><i class="v1 fa-brands fa-square-twitter"></i></a>
+                    <a class="btn4" href="#" ><i class="v1 fa-brands fa-square-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,340 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            *{
+                margin:0px;
+            }
+            .nav{
+                width:100%;
+                height: 15vh;
+                background-color:blanchedalmond;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                position: fixed;
+                z-index: 5;
+            }
+            .nav img{
+                width:150px;
+                height:13vh;
+                margin-left: 2%;
+                margin-top: 0.5%;
+            }
+             .ppp{
+                color: black;
+                font-style:italic;
+                font-size: 20px;
+                
+                
+            }
+            .ppp:hover{
+                background-color: aliceblue;
+            }
+            menu{
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                width: 150px;
+                background-color: white;
+            }
+            .menu a{
+                padding: 1rem;
+            }
+            
+            .ppp:hover .menu{
+                display: block;
+            }
+            .menu1{
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                width: 150px;
+                background-color: white;
+            }
+            .menu1 a{
+                padding: 1rem;
+            }
+            .y:hover .menu1{
+                display: block;
+            }
+            
+            .y{
+                font-size: 20px;
+                color: black;
+                font-style: italic;
+            }
+            .y:hover{
+                background-color: aliceblue;
+            }
+            .cb img{
+                width:100%;
+                height: 100vh;
+            }
+            .da{
+                width:100%;
+                height:50vh;
+                background-color:white;
+            }
+            .db{
+                text-align: center;
+                font-size: 50px;
+            }
+            .dc{
+                text-align: center;   
+                font-size: 20px;
+                padding-top: 8vh;
+                                                                                                    
+            }
+            .ea{
+                width: 100%;
+                height:100vh;
+                background-color:white;
+            }
+            .eb img{
+                width:47%;
+                height:60vh;
+
+            }
+            .ec{
+                font-size: 35px;
+            }
+            .ed{
+                font-size: 18px;
+            }
+            .ee img{
+                margin-left: 52%;
+                margin-top: -45.5%;
+                width:47%;
+                height:60vh;
+            }
+            .ef{
+                font-size: 35px;
+                margin-left: 52%;
+                margin-top: -13%;
+            }
+            .eg{
+                font-size: 18px;
+                margin-left: 52%;
+                margin-top: 1%;
+            }
+            .u{
+                width: 97%;
+                height: 60vh;
+                background-color: dodgerblue;
+                margin-left: 2%;
+                margin-top: 7%;
+                display: flex;
+            }
+            .subdiv{
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 5%;
+                top: 5vh;
+            }
+            .subdiv1{
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 10%;
+                top: 5vh;
+            }
+            .subdiv2{
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 20%;
+                top: 5vh;
+            }
+            .subdiv3{
+                width: 25%;
+                color: aliceblue;
+                font-size: 20px;
+                line-height: 30px;
+                position: relative;
+                left: 30%;
+                top: 5vh;
+            }
+            .v{
+                display: flex;
+            }
+            .btn{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+            }
+            .v1{
+                position: relative;
+                left: 20%;
+                top: 1vh;
+            }
+            .btn1{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 2%;
+            }
+            .btn2{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 4%;
+            }
+            .btn3{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 5%;
+            }
+            .btn4{
+                width: 10%;
+                height: 5vh;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                left: 6%;
+            }
+            .btn:hover{
+                background-color: blue;
+            }
+            .btn1:hover{
+                background-color: blue;
+            }
+            .btn2:hover{
+                background-color: blue;
+            }
+            .btn3:hover{
+                background-color: blue;
+            }
+            .btn4:hover{
+                background-color: blue;
+            }
+            .menu{
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                width: 150px;
+                background-color: white;
+            }
+            .menu a{
+                padding: 1rem;
+            }
+            .ppp:hover .menu{
+                display: block;
+            }
+            .menu1{
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                width: 150px;
+                background-color: white;
+            }
+            .menu1 a{
+                padding: 1rem;
+            }
+            .y:hover .menu1{
+                display: block;
+            }
+            .y{
+                font-size: 20px;
+                color: black;
+                font-style: italic;
+            }
+            .y:hover{
+                background-color: aliceblue;
+            }
+
+
+               
+        </style>
+        <body>
+            <div class="nav">
+                <img src="https://images.fresha.com/locations/location-profile-images/148124/230711/bdc4eab7-8def-4c59-b325-be5f0a4ae396-1.jpg?class=fallback"/>
+                   <div class="ppp">Our Services
+                    <div class="menu">
+                        <a href="#"><div>Hair Care</div></a>
+                        <a href="#"><div>Skin Care</div></a>
+                        <a href="#"><div>Body Care</div></a>
+                    </div>
+                </div>
+                    <a href="vamshi1.html">Bridal</a>
+                    <a href="vamshi3.html">Franchise</a>
+                    <div class="y">About Us
+                        <div class="menu1">
+                            <a href="#"><div>School Of Makeup</div></a>
+                            <a href="#"><div>Media</div></a>
+                        </div>
+                    </div>
+                    <p>Blogs</p>
+                    <a href="vamsi2.html">Contact Us</a>
+            </div>
+            <div class="ca">
+                <div class="cb"><img src="https://images.jdmagicbox.com/comp/chennai/s6/044pxx44.xx44.160715161708.t8s6/catalogue/pralathiparlour-mogappair-west-chennai-beauty-parlours-ozo1m14h8e.jpg?clr=#660000"/></div>
+            </div>
+            <div class="da">
+                <div class="db">Over 400 Women Entrepreneurs<br> Have Found Their Calling. Are You<br> Next?</div>
+                <div class="dc">Become A Successful Entrepreneur With India’s Largest Family<br> Salon Chain</div>
+            </div>
+            <div class="ea">
+                <div class="eb"><img src="https://naturals.in/wp-content/uploads/2022/04/natural.jpg"</div>
+                <div class="ec">Start And Grow Your Business With Us</div>
+                <div class="ed">A Naturals franchise is simple and easy! With the brand being well<br>-established, a Naturals salon can be set up with minimum advertising <br>and marketing costs, and zero hassles in identifying locations. We<br> have always stood for women’s entrepreneurship and we are proud to<br> have promoted over 400 women who were earlier homemakers, into <br>successful entrepreneurs and Naturals franchisees.
+                </div>
+                <div class="ee"><img src="https://naturals.in/wp-content/uploads/2022/05/franchise.jpg"</div>
+                <div class="ef">Franchise Opportunities For Budding <br>Entrepreneurs</div>
+                <div class="eg">We have always been pioneers in the industry – be it in promoting<br> ‘Unisex’ salons when it was unheard of in the Indian market, to growing<br> through ‘Franchisee’ networks. We understand that continual training is<br> key to this business, and have established the Naturals Training<br> Academy in Chennai, which offers multiple Diploma courses to <br>upgrade the skills of our technicians.</div>
+            </div>
+            <div class="u">
+                <div class="subdiv">
+                    <p>Quick Lins</p><br/><br/>
+                    <p>Home</p>
+                    <p>About Us</p>
+                    <p>Contact Us</p>
+                    <p>Francise Opportunities</p>
+                    <p>Blogs</p>
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="subdiv1">
+                    <p>Our Services</p><br/><br/>
+                    <p>Hair Care</p>
+                    <p>Skin Care</p>
+                    <p>Body Care</p>
+                    <p>Bridal</p>
+                    <p>Events</p>
+                </div>
+                <div class="subdiv2">
+                    <p>Contact Us</p><br/><br/>
+                    <p>Sheere Dean Salon & Spa pvt.Ltd</p>
+                    <p>123 & 124,3rd floor,S R Nagar,Amerpet Road,</p>
+                    <p>Tousand Lights, Hyderbad</p>
+                    <p>Telangana</p>
+                </div>
+                <div class="subdiv3">
+                    <p>Get In Touch</p><br/><br/>
+                    <p>+91 9092626262</p>
+                    <p>care@sheere dean.in</p><br/>
+                    <div class="v">
+                        <a class="btn" href="#" ><i class="v1 fa-brands fa-instagram"></i></a>
+                        <a class="btn1" href="#" ><i class="V1 fa-brands fa-facebook"></i></a>
+                        <a class="btn2" href="#" ><i class="v1 fa-brands fa-linkedin-in"></i></a>
+                        <a class="btn3" href="#" ><i class="v1 fa-brands fa-square-twitter"></i></a>
+                        <a class="btn4" href="#" ><i class="v1 fa-brands fa-square-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+    
+        </body>
+    </head>
+</html>
